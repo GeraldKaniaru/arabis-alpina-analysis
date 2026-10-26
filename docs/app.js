@@ -75,18 +75,30 @@ if (typeof document !== 'undefined') {
   for(const type of types){const option=document.createElement('option');option.value=type;option.textContent=type.toUpperCase();$('type').append(option);}
   for(const bundle of bundles){const group=files.filter(f=>f.category===bundle[0]);$(`${bundle[0]}-size`).textContent=`${group.length} files · ${formatSize(group.reduce((n,f)=>n+f.size,0))} uncompressed`;}
   render();
+  // The catalogue changes page height after load; honour section links afterwards.
+  const section = document.getElementById(window.location.hash.slice(1));
+  if (section) requestAnimationFrame(() => section.scrollIntoView({block: 'start'}));
  }).catch(()=>{$('result-info').textContent='The file catalogue could not be loaded. Please reload, or browse the GitHub repository and release downloads.';});
 }
 
-// Match the compact academic navigation to the current section.
+// Enlarge exact manuscript figures without leaving the gallery.
 if (typeof document !== 'undefined') {
-  function updateNavigation() {
-    const hash = window.location.hash || '#home';
-    document.querySelectorAll('nav a').forEach(link => {
-      if (link.getAttribute('href') === hash) link.setAttribute('aria-current', 'location');
-      else link.removeAttribute('aria-current');
+  const viewer = document.getElementById('figure-viewer');
+  document.querySelectorAll('[data-manuscript-figure]').forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      const number = link.dataset.manuscriptFigure;
+      const caption = document.getElementById('caption-' + number).textContent;
+      document.getElementById('figure-viewer-title').textContent = 'Figure ' + number;
+      const image = document.getElementById('figure-viewer-image');
+      image.src = link.getAttribute('href');
+      image.alt = caption.split('. ').slice(0, 2).join('. ');
+      document.getElementById('figure-viewer-caption').textContent = caption;
+      const download = document.getElementById('figure-viewer-download');
+      download.href = link.getAttribute('href');
+      download.download = 'Arabis_alpina_20261026_Figure_' + number + '.' + link.getAttribute('href').split('.').pop();
+      viewer.showModal();
     });
-  }
-  window.addEventListener('hashchange', updateNavigation);
-  updateNavigation();
+  });
+  document.getElementById('close-figure-viewer').addEventListener('click', () => viewer.close());
 }

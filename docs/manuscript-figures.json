@@ -1,0 +1,125 @@
+{
+  "source": "arabis alpina manuscript_20261026.docx",
+  "figures": [
+    {
+      "number": "1",
+      "label": "Figure 1",
+      "title": "Study area and sampling locations",
+      "caption": "Figure 1. Study area and sampling locations on Mount Kenya. (a) Location of Mount Kenya in central Kenya. The upper-left inset shows Kenya within Africa. (b) Counties surrounding Mount Kenya based on GADM version 4.1. (c) Vegetation zones of Mount Kenya based on the VECEA potential natural vegetation map of eastern Africa (van Breugel et al., 2015; Lillesø et al., 2024). The dashed box identifies the sampling area. (d) Distribution of the sampled plots along the elevational gradient. Grey lines show 100-m contours derived from the approximately 30-m Copernicus DEM GLO-30 (European Space Agency & Airbus, 2022).",
+      "image": "assets/manuscript_20261026/figure_1.png",
+      "thumbnail": "assets/manuscript_20261026/figure_1_preview.jpg",
+      "sha256": "b6da2709e762e74bb163bd592b1b91ad5a74baf13743fd811857fd337033cdf1",
+      "sourceMedia": "word/media/image1.png"
+    },
+    {
+      "number": "2",
+      "label": "Figure 2",
+      "title": "Morphology of Arabis alpina",
+      "caption": "Figure 2. Morphology of Arabis alpina. Panels show (a) plant growing on rocky substrate (photograph: Giovanni Fontana), (b) raceme bearing white, four-petalled flowers (Jacek Pietruszewski), (c) developing siliques above the basal leaf rosette (Johannes Hansen) and (d) dehisced siliques containing mature brown seeds (karin_schrieber). Images are not to scale and were obtained from iNaturalist (https://www.inaturalist.org)",
+      "image": "assets/manuscript_20261026/figure_2.png",
+      "thumbnail": "assets/manuscript_20261026/figure_2_preview.jpg",
+      "sha256": "3c1d30a85cc37cc97b2f1a32732e8ef868bc7bc833d1dcb6c10f42f97fc9f1e9",
+      "sourceMedia": "word/media/image2.png"
+    },
+    {
+      "number": "3",
+      "label": "Figure 3",
+      "title": "Environmental variation across source plots",
+      "caption": "Figure 3. Environmental variation across the 27 source plots. Panels show (a) June 2021 mean temperature, (b) June 2021 total precipitation and (c) standardised soil PC1 scores against elevation, and (d) loadings of the five soil variables on PC1. In (d), C, N, P and EC denote soil organic carbon, total nitrogen, extractable phosphorus and electrical conductivity, respectively. Points in a-c represent plots. Lines show fitted linear relationships, and shading indicates 95% confidence intervals. In the equations, x is elevation in metres.",
+      "image": "assets/manuscript_20261026/figure_3.png",
+      "thumbnail": "assets/manuscript_20261026/figure_3_preview.jpg",
+      "sha256": "48dd3b7b8864d58eb072ed3ad1849f96d2a3558bc4a0d2de15eabcc0a255ade6",
+      "sourceMedia": "word/media/image3.png"
+    },
+    {
+      "number": "4",
+      "label": "Figure 4",
+      "title": "Elevational associations and trait relationships",
+      "caption": "Figure 4. Elevational associations and trait relationships in A. alpina. Panels show (a) elevation and flowering onset, (b) elevation and flowering duration, (c) onset and final flowering date, (d) onset coefficients for final flowering date within and among plots, (e) elevation and MISM, (f) elevation and total seed number, (g) MISM and total seed number, and (h) mass-number coefficients within and among plots. MISM denotes mean individual seed mass (mg per seed). In a-c and e-g, points represent plants, lines show model predictions and shading indicates 95% confidence intervals. Solid and dashed lines denote P < 0.05 and P ≥ 0.05. In d and h, points show coefficients and bars indicate 95% confidence intervals. Reference lines mark zero and one in d and zero in h. For final-date coefficients in c and d, zero indicates no association with final date and one indicates unchanged duration with later onset. The P value in c tests a slope of zero. Coefficients are expressed per 100-m elevation increase (a, b, e, f), one-day delay in onset (c, d) or 1-mg increase in MISM (g, h). Panel e uses natural-log-transformed MISM, and f-h coefficients use the log-link scale. Flowering day 1 is 1 June 2021. The fitted line in c represents fixed effects with random intercepts set to zero. R2m and R2c denote marginal and conditional R2. Symbols ns and *** denote P ≥ 0.05 and P < 0.001.",
+      "image": "assets/manuscript_20261026/figure_4.png",
+      "thumbnail": "assets/manuscript_20261026/figure_4_preview.jpg",
+      "sha256": "0f78a6097325b07b949d368b6c522635fca7c68fe94af395df2a822ef788710b",
+      "sourceMedia": "word/media/image4.png"
+    },
+    {
+      "number": "5",
+      "label": "Figure 5",
+      "title": "Elevation, seed mass and germination",
+      "caption": "Figure 5. Associations of source elevation and seed mass with germination responses in A. alpina. Panels show coefficients from (a) elevation-only models and (b) 100-seed-mass-only and elevation-adjusted mass models. Circles, squares and diamonds identify these model sets, respectively. Points show coefficients, bars indicate 95% confidence intervals, and vertical dashed lines mark zero. Coefficients are expressed per 100-m elevation increase in a and per 1-mg increase in 100-seed mass in b. Responses are time to first germination (T0; days), time spread (Tg – T0; days), mean germination rate (MGR; day-1) and germination percentage (GP; coefficient units are percentage points). Annotations report coefficients (β), marginal R2 (R2m), conditional R2 (R2c) and significance levels. Symbols ns and *** denote P ≥ 0.05 and P < 0.001.",
+      "image": "assets/manuscript_20261026/figure_5.png",
+      "thumbnail": "assets/manuscript_20261026/figure_5_preview.jpg",
+      "sha256": "1fc52b8333500ce065942fd149e1ca64b98fc07e1112feb51337137475f754f8",
+      "sourceMedia": "word/media/image5.png"
+    },
+    {
+      "number": "6",
+      "label": "Figure 6",
+      "title": "Baseline and projected reproductive traits",
+      "caption": "Figure 6. Baseline and projected reproductive traits of A. alpina for June 2021 and 2041-2060. Panels show (a) flowering onset, (b) flowering duration, (c) mean individual seed mass (MISM) and (d) total seed number per plant. Grey open points show baseline means. Filled brown and yellow points show equally weighted ensemble means under SSP2-4.5 and SSP5-8.5, respectively, and open future points show individual climate-model means. Error bars span the 2.5th-97.5th percentiles of plant-level predictions. They describe variation among predictions, not uncertainty in mean changes. Lines connect baseline and future means. Annotations report changes in response units and, except for onset, as percentages of baseline means. Onset changes are expressed only in days because percentages depend on the reference date. Table 3 and Fig. S6 report bootstrap confidence intervals for mean changes. Seed-number predictions use the revised nbinom2 model without random intercepts and retain all environmental predictors.",
+      "image": "assets/manuscript_20261026/figure_6.png",
+      "thumbnail": "assets/manuscript_20261026/figure_6_preview.jpg",
+      "sha256": "33716dc328ee7cf2e457cc6f3168d9134f03fd52799ddfc1d82964b2eb040032",
+      "sourceMedia": "word/media/image6.png"
+    },
+    {
+      "number": "S1",
+      "label": "Figure S1",
+      "title": "Vegetation zones along the transect",
+      "caption": "Figure S1. Vegetation zones along the Mount Kenya transect. Panels show (a) lower montane wet forest, (b) the upper montane forest-bamboo transition with Podocarpus spp., Hagenia abyssinica, Yushania alpina and Lobelia bambuseti, (c) moorland with tussock grasses, sedges and Lobelia keniensis, (d) wet Afro-alpine tussock grassland with young Lobelia rosettes, (e) upper Afro-alpine grassland and wetland with giant rosette plants, (f) upper Afro-alpine sedges (Carex spp.), grasses (Festuca spp.) and giant groundsels, (g) the transition to nival vegetation among boulders, and (h) sparse nival vegetation and scree. Photographs: Gerald K. Kaniaru.",
+      "image": "assets/manuscript_20261026/figure_s1.png",
+      "thumbnail": "assets/manuscript_20261026/figure_s1_preview.jpg",
+      "sha256": "5a4f91a413beba742586502efe4318734c7fa6dafdc4a4ce83f1ed21e3316225",
+      "sourceMedia": "word/media/image7.png"
+    },
+    {
+      "number": "S2",
+      "label": "Figure S2",
+      "title": "Sampling design",
+      "caption": "Figure S2. Sampling design for flowering observations and seed collection in A. alpina. (a) The transect followed an established route from 3,000 to 4,800 m, with sampling on both sides. The survey covered 18 elevation bands, with two blocks per band and ten plots per block, giving 36 blocks and 360 plots. Triangles identify the 27 occupied plots across nine occupied blocks spanning 3,763-4,567 m. (b) Within each block, ten non-overlapping 5 × 5 m plots were randomly positioned using coordinate pairs measured along perpendicular axes from a fixed reference corner, with at least 10 m between plot boundaries. Adjacent blocks were separated by unsampled buffers of at least 20 m measured along the ground between block boundaries. (c) Within occupied plots, well-spaced rosettes representing different plant sizes were selected. Each separately rooted rosette was treated as a sampling unit, without assuming that rosettes connected by stolons were genetically distinct. In total, 581 rosettes were sampled. Arabis alpina occurred in 27 plots across nine blocks. Positions and distances are schematic and not drawn to scale.",
+      "image": "assets/manuscript_20261026/figure_s2.png",
+      "thumbnail": "assets/manuscript_20261026/figure_s2_preview.jpg",
+      "sha256": "b4591d87a4d97b10f0e5fe567784196367c635f8f78922c739147e0bd358a910",
+      "sourceMedia": "word/media/image8.png"
+    },
+    {
+      "number": "S3",
+      "label": "Figure S3",
+      "title": "Distributions of environmental and reproductive traits",
+      "caption": "Figure S3. Distributions of environmental variables and reproductive traits. Histograms show observed distributions on a density scale, with black curves indicating smoothed density estimates. Yellow bars identify variables on their original scales, and grey bars show variables after natural-log-transformation. MISM is mean individual seed mass in mg per seed.",
+      "image": "assets/manuscript_20261026/figure_s3.png",
+      "thumbnail": "assets/manuscript_20261026/figure_s3_preview.jpg",
+      "sha256": "9b230fdd0f4dead0d148855f5a6ee246a67631daa51ffb802877d2b2a9b6c0de",
+      "sourceMedia": "word/media/image9.png"
+    },
+    {
+      "number": "S4",
+      "label": "Figure S4",
+      "title": "Germination experiment",
+      "caption": "Figure S4. Design of the Arabis alpina germination experiment. Steps show (1) selection of seeds from maternal accessions, (2) allocation of 100 seeds per accession to four dishes of 25 seeds, (3) the shared temperature and light regime, (4) random placement and repositioning of dishes among and within three monitored incubators, and (5) daily germination counts and watering to maintain agar moisture.",
+      "image": "assets/manuscript_20261026/figure_s4.png",
+      "thumbnail": "assets/manuscript_20261026/figure_s4_preview.jpg",
+      "sha256": "0d897cfa8f8cbf44d40c4901a536afa4649722c817f293a815749bb60fb6ded6",
+      "sourceMedia": "word/media/image10.png"
+    },
+    {
+      "number": "S5",
+      "label": "Figure S5",
+      "title": "Spearman rank correlations",
+      "caption": "Figure S5. Spearman rank correlations among environmental variables and reproductive traits. Tile values show Spearman’s correlation coefficient (ρ), with green and brown indicating positive and negative correlations, respectively. Soil PC1 summarises standardised soil properties. Onset and duration refer to flowering. T0, time spread (Tg – T0), MGR and GP denote germination onset, spread, mean rate and percentage. Only the lower triangle is shown. Blank cells identify untested pairs, namely germination responses with MISM or total seed number, and 100-seed mass with all variables other than the four germination components. MISM equals 100-seed mass divided by 100, so their rank correlation is 1 by construction. MISM is mean individual seed mass in mg per seed. Asterisks identify Benjamini-Hochberg-adjusted P values: *, P < 0.05; **, P < 0.01; ***, P < 0.001. Unmarked values have adjusted P ≥ 0.05.",
+      "image": "assets/manuscript_20261026/figure_s5.png",
+      "thumbnail": "assets/manuscript_20261026/figure_s5_preview.jpg",
+      "sha256": "e488e037661f4f13a9df1f66d43877ec92a8ca8bd52577757f80926b2366adc1",
+      "sourceMedia": "word/media/image12.png"
+    },
+    {
+      "number": "S6",
+      "label": "Figure S6",
+      "title": "Projected changes in reproductive traits",
+      "caption": "Figure S6. Projected changes in A alpina reproductive traits for 2041-2060 relative to June 2021. Panels show (a) flowering onset, (b) duration, (c) MISM and (d) total seed number per plant. Brown  and yellow identify SSP2-4.5 and SSP5-8.5, respectively. Violin widths show the estimated density of mean changes from 1,000 parametric bootstrap replicates. Points show model-estimated mean changes, averaged equally across three climate models. Bars show 95% percentile bootstrap intervals. Annotations give changes and confidence limits. Vertical dashed lines mark zero. Seed-number changes and intervals use the revised nbinom2 model without random intercepts and its validated bootstrap refits.",
+      "image": "assets/manuscript_20261026/figure_s6.png",
+      "thumbnail": "assets/manuscript_20261026/figure_s6_preview.jpg",
+      "sha256": "9ca301beb13170980a6f15acff14b1d5595b5753d051e8af3ee2180675da59bd",
+      "sourceMedia": "word/media/image13.png"
+    }
+  ]
+}
