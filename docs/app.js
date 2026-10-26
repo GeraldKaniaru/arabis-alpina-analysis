@@ -77,3 +77,16 @@ if (typeof document !== 'undefined') {
   render();
  }).catch(()=>{$('result-info').textContent='The file catalogue could not be loaded. Please reload, or browse the GitHub repository and release downloads.';});
 }
+
+// Match the compact academic navigation to the current section.
+if (typeof document !== 'undefined') {
+  function updateNavigation() {
+    const hash = window.location.hash || '#home';
+    document.querySelectorAll('nav a').forEach(link => {
+      if (link.getAttribute('href') === hash) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    });
+  }
+  window.addEventListener('hashchange', updateNavigation);
+  updateNavigation();
+}
