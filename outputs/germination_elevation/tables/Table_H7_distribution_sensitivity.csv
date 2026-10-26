@@ -1,0 +1,12 @@
+"Hypothesis","Response","Model","Scale","Estimate_per_elevation_SD","SE","CI_low","CI_high","P","N","AIC","Converged","Positive_definite_Hessian","Singular","Max_gradient","Warnings"
+"H7a","t0","t0_Gaussian","Identity",0.932422,0.211939,0.51703,1.347814,0,581,1746.396,TRUE,FALSE,TRUE,NA,""
+"H7d","Time_spread","Time_spread_Gaussian","Identity",1.662961,0.414995,0.849587,2.476336,0,581,2098.887,TRUE,TRUE,FALSE,NA,""
+"H7b","MGR","MGR_Gaussian","Identity",-0.010953,0.00108,-0.013069,-0.008837,0,581,-5598.059,TRUE,FALSE,TRUE,NA,""
+"H7c","GP","GP_Gaussian","Identity",-12.488156,1.189569,-14.819669,-10.156643,0,581,3548.632,TRUE,TRUE,FALSE,NA,""
+"H7c","GP","GP_binomial","Log odds",-0.721653,0.072344,-0.863444,-0.579863,0,581,3530.748,TRUE,TRUE,FALSE,NA,""
+"H7c","GP","GP_beta_binomial","Log odds",-0.72095,0.071755,-0.861586,-0.580313,0,581,3532.445,TRUE,TRUE,FALSE,NA,""
+"H7b","MGR","MGR_Gamma","Log mean",-0.154691,0.016786,-0.187592,-0.12179,0,581,-5629.939,TRUE,TRUE,TRUE,NA,""
+"H7a","t0","t0_ordinal","Cumulative log odds of a later category",2.354434,0.59341,1.191372,3.517496,0,581,1386.584,FALSE,TRUE,TRUE,0,""
+"H7d","Time_spread","Time_spread_ordinal","Cumulative log odds of a later category",2.57926,0.662076,1.281616,3.876905,0,581,1924.274,FALSE,TRUE,FALSE,0,"step factor reduced below minimum when updating
+the random effects
+  at iteration 5470"

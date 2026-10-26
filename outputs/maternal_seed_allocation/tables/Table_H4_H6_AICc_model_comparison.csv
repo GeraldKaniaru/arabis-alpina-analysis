@@ -1,0 +1,10 @@
+"Hypothesis","Model","N","K","logLik","AIC","AICc","Converged","Positive_definite_Hessian","Singular","Delta_AICc","Akaike_weight"
+"H4","elevation_soil",581,6,310.931,-609.862,-609.716,TRUE,TRUE,TRUE,0,0.711
+"H4","elevation_climate_soil",581,8,311.408,-606.817,-606.565,TRUE,TRUE,TRUE,3.151,0.147
+"H4","elevation",581,5,308.158,-606.317,-606.212,TRUE,TRUE,TRUE,3.503,0.123
+"H4","elevation_climate",581,7,308.31,-602.62,-602.424,TRUE,TRUE,TRUE,7.291,0.019
+"H5","elevation",581,5,-3395.921,6801.842,6801.947,TRUE,TRUE,NA,0,0.643
+"H5","elevation_soil",581,6,-3395.893,6803.786,6803.932,TRUE,TRUE,NA,1.986,0.238
+"H5","elevation_climate",581,7,-3395.883,6805.766,6805.961,TRUE,TRUE,NA,4.015,0.086
+"H5","elevation_climate_soil",581,8,-3395.831,6807.661,6807.913,TRUE,TRUE,NA,5.966,0.033
+"H6","seed_mass",581,5,-3396.491,6802.983,6803.087,TRUE,TRUE,NA,0,1

@@ -1,0 +1,3 @@
+"Scale","N","Mean","SD","Median","Skewness","Shapiro_Wilk_P"
+"Log-transformed MISM",581,-1.649,0.143,-1.638,-0.199,0
+"Original MISM",581,0.194,0.027,0.194,-0.03,0

@@ -1,0 +1,3 @@
+"Hypothesis","Model","Term","Coefficient_unit","Estimate","SE","CI_low","CI_high","z_value","P_value","IRR","IRR_low","IRR_high","Marginal_R2","Conditional_R2","N"
+"H6","within_plot","MISM_within","per 1-mg MISM increase",-0.125011,0.44904,-1.005113,0.75509,-0.278,0.781,0.882,0.366,2.128,0.002,0.002,581
+"H6","among_plot","MISM_among","per 1-mg MISM increase",1.872414,2.036915,-2.119866,5.864693,0.919,0.358,6.504,0.12,352.374,0.002,0.002,581

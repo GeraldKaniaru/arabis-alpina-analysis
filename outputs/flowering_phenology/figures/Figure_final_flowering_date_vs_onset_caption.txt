@@ -1,0 +1,3 @@
+Line and grey 95% confidence band: mixed-model fixed effects, with block and plot intercepts set to zero.
+Points show individual plants with display jitter. P tests the onset slope against zero.
+Day 1 = 1 June 2021. The slope-equals-one test is reported in the completion-model table.

@@ -1,0 +1,5 @@
+"Trait","Distribution","N","Random_effects","Positive_definite_Hessian","Marginal_R2","Conditional_R2","Singular"
+"Flowering_onset","Gaussian",581,"Nested block and plot intercepts",NA,0.952,0.963,FALSE
+"Flowering_duration","Gaussian",581,"Nested block and plot intercepts",NA,0.988,0.996,FALSE
+"MISM","Gaussian on log scale",581,"Nested block and plot intercepts",NA,0.012,0.012,TRUE
+"Total_seed_number","negative binomial (nbinom2)",581,"None: negligible components removed after numerical failure",TRUE,0.002,0.002,NA

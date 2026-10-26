@@ -1,0 +1,17 @@
+"Trait","Scenario","Prediction","Baseline","Future","Mean_change"
+"Flowering_onset","SSP2-4.5","Conditional: fitted random effects retained",13.157,13.219,0.062
+"Flowering_onset","SSP5-8.5","Conditional: fitted random effects retained",13.157,13.329,0.173
+"Flowering_onset","SSP2-4.5","Fixed effects: random effects set to zero",13.136,13.198,0.062
+"Flowering_onset","SSP5-8.5","Fixed effects: random effects set to zero",13.136,13.309,0.173
+"Flowering_duration","SSP2-4.5","Conditional: fitted random effects retained",21.091,20.477,-0.615
+"Flowering_duration","SSP5-8.5","Conditional: fitted random effects retained",21.091,19.959,-1.132
+"Flowering_duration","SSP2-4.5","Fixed effects: random effects set to zero",21.2,20.586,-0.615
+"Flowering_duration","SSP5-8.5","Fixed effects: random effects set to zero",21.2,20.068,-1.132
+"MISM","SSP2-4.5","Conditional: fitted random effects retained",0.192,0.185,-0.007
+"MISM","SSP5-8.5","Conditional: fitted random effects retained",0.192,0.183,-0.01
+"MISM","SSP2-4.5","Fixed effects: random effects set to zero",0.192,0.185,-0.007
+"MISM","SSP5-8.5","Fixed effects: random effects set to zero",0.192,0.183,-0.01
+"Total_seed_number","SSP2-4.5","Conditional: fitted random effects retained",295.921,289.65,-6.271
+"Total_seed_number","SSP5-8.5","Conditional: fitted random effects retained",295.921,284.841,-11.08
+"Total_seed_number","SSP2-4.5","Fixed effects: random effects set to zero",295.921,289.65,-6.271
+"Total_seed_number","SSP5-8.5","Fixed effects: random effects set to zero",295.921,284.841,-11.08

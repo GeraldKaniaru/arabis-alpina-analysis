@@ -1,0 +1,4 @@
+"Hypothesis","Model","Term","Coefficient_unit","Estimate","SE","CI_low","CI_high","z_approximation","P_value","IRR","IRR_low","IRR_high","Marginal_R2","Conditional_R2","N","Singular","z_value","Percent_change_per_100m_elevation_increase","Percent_change_in_seed_number_per_1mg_seed_mass_decrease"
+"H4","elevation","Elevation_z","per 100-m elevation increase",-0.001942,0.003845,-0.009477,0.005593,-0.505,0.613,NA,NA,NA,0,0.005,581,TRUE,NA,-0.194,NA
+"H5","elevation","Elevation_z","per 100-m elevation increase",0.008115,0.007551,-0.006685,0.022915,NA,0.283,1.008,0.993,1.023,0.002,0.002,581,NA,1.075,0.815,NA
+"H6","seed_mass","MISM_centered","per 1-mg MISM increase",-0.032057,0.438787,-0.892064,0.827951,NA,0.942,0.968,0.41,2.289,0,0,581,NA,-0.073,NA,3.258

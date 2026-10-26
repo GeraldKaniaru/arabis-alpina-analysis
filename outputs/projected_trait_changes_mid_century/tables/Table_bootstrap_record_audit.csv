@@ -1,0 +1,5 @@
+"Trait","Attempted","Retained","Failed_replicates","All_retained_draws_finite","Refit_warning_counts","Convergence_checks","Hessian_checks","Singularity_checks"
+"Flowering_onset",1000,1000,0,TRUE,1,"See refit log","See refit log","See refit log"
+"Flowering_duration",1000,1000,0,TRUE,2,"See refit log","See refit log","See refit log"
+"MISM",1000,1000,0,TRUE,0,"See refit log","See refit log","See refit log"
+"Total_seed_number",1000,1000,0,TRUE,0,"See refit log","See refit log","See refit log"

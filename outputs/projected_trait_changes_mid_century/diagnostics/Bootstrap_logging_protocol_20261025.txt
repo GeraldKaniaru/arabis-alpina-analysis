@@ -1,0 +1,12 @@
+Logged diagnostic rerun: 25 October 2026 (Africa/Nairobi).
+Four traits; 1000 attempted replicates each; seed 12191; four PSOCK workers per trait.
+Saved full-precision baseline model frames and future predictors were used.
+Gaussian responses were refitted by lme4::lmer with the original formula and ML method, explicitly calculating derivatives; count responses used glmmTMB::refit.
+Warnings and messages were intercepted and saved rather than discarded.
+The original finite-prediction retention rule was retained for an unfiltered benchmark.
+A separate sensitivity screen requires finite predictions, optimizer convergence, a positive-definite Hessian and finite fixed-effect standard errors.
+Singularity was recorded separately and was not an automatic exclusion criterion.
+lme4 singularity tolerance: 1e-4. glmmTMB random-intercept boundary screen: any conditional random-intercept variance below 1e-8.
+Counts for different flags overlap and must not be added.
+Raw per-replicate logs include diagnostic messages. The original historical bootstrap draws are preserved.
+The diagnostic-screened intervals are a sensitivity comparison; screening alone does not establish model adequacy.

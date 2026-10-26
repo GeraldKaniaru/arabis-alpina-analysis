@@ -1,0 +1,9 @@
+"Scenario","Trait","Baseline_mean","Future_mean","Mean_change","Mean_change_CI_low","Mean_change_CI_high","Successful_bootstraps"
+"SSP2-4.5","Flowering_duration",21.091,20.477,-0.615,-1.261,0.095,1000
+"SSP2-4.5","Flowering_onset",13.157,13.219,0.062,-0.449,0.627,1000
+"SSP2-4.5","MISM",0.192,0.185,-0.007,-0.019,0.008,1000
+"SSP2-4.5","Total_seed_number",295.921,289.65,-6.271,-41.176,49.805,1000
+"SSP5-8.5","Flowering_duration",21.091,19.959,-1.132,-2.084,-0.113,1000
+"SSP5-8.5","Flowering_onset",13.157,13.329,0.173,-0.535,0.964,1000
+"SSP5-8.5","MISM",0.192,0.183,-0.01,-0.028,0.012,1000
+"SSP5-8.5","Total_seed_number",295.921,284.841,-11.08,-67.663,73.06,1000

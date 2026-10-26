@@ -1,0 +1,5 @@
+"Dataset","Observation_level","Variable","N_total","N_non_missing","N_missing","Mean","SD","Minimum","Q1","Median","Q3","Maximum","IQR","Adjusted_Fisher_Pearson_skewness","Shapiro_Wilk_P","Potential_outliers_below_1.5_IQR","Potential_outliers_above_1.5_IQR","Skewness_interpretation"
+"germination_counts","plant record","t0",581,581,0,8.34595524956971,1.66684866555306,4,8,9,9,19,1,-0.430936539085641,1.19314971377327e-20,74,12,"approximately symmetric"
+"germination_counts","plant record","Time_spread",581,581,0,14.5542168674699,2.88681370965754,8,13,14,16,22,3,0.703649762258677,8.97315610629042e-15,1,21,"moderately right-skewed"
+"germination_counts","plant record","MGR",581,581,0,0.0632894130111746,0.00987183798612844,0.0412926391382406,0.0572207084468665,0.062111801242236,0.0685358255451713,0.105326876513317,0.0113151170983048,0.525224686613437,3.79327071886624e-12,0,6,"moderately right-skewed"
+"germination_counts","plant record","GP",581,581,0,63.2013769363167,11.3933918308431,41,55,61,71,98,16,0.586180074255389,3.49087271126366e-10,0,1,"moderately right-skewed"

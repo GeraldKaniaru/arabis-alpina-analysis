@@ -1,0 +1,9 @@
+"Hypothesis","Response","Model","Term","Estimate_per_mg","SE","CI_low","CI_high","P_value","Expected_dir_smgection","Direction_consistent","Marginal_R2","Conditional_R2","AIC","N","Residual_df","Singular","Converged"
+"H8a","t0","100-seed mass only","Seed_mass_100_centered_mg",0.002340142,0.015717744,-0.02846607,0.033146354,0.881644,"negative",FALSE,1.4e-05,0.649287,1757.338165,581,576,FALSE,TRUE
+"H8a","t0","100-seed mass + elevation","Seed_mass_100_centered_mg",0.003190127,0.015709761,-0.027600439,0.033980694,0.839083,"negative",FALSE,0.167008,0.586984,1748.354463,581,575,TRUE,TRUE
+"H8_spread","Time_spread","100-seed mass only","Seed_mass_100_centered_mg",-0.003237674,0.021020508,-0.044437112,0.037961764,0.87759,"not specified",NA,1e-05,0.776005,2109.241396,581,576,FALSE,TRUE
+"H8_spread","Time_spread","100-seed mass + elevation","Seed_mass_100_centered_mg",-0.002304809,0.021016885,-0.043497147,0.038887529,0.912675,"not specified",NA,0.199849,0.721555,2100.874619,581,575,FALSE,TRUE
+"H8b","MGR","100-seed mass only","Seed_mass_100_centered_mg",-1.8332e-05,2.6853e-05,-7.0963e-05,3.4299e-05,0.494817,"positive",FALSE,1.6e-05,0.981504,-5577.07589,581,576,FALSE,TRUE
+"H8b","MGR","100-seed mass + elevation","Seed_mass_100_centered_mg",-1.8919e-05,2.6852e-05,-7.1547e-05,3.371e-05,0.481085,"positive",FALSE,0.632387,0.966938,-5596.555382,581,575,TRUE,TRUE
+"H8c","GP","100-seed mass only","Seed_mass_100_centered_mg",0.038656051,0.075154737,-0.108644526,0.185956629,0.607005,"positive",TRUE,5.4e-05,0.887414,3578.75583,581,576,FALSE,TRUE
+"H8c","GP","100-seed mass + elevation","Seed_mass_100_centered_mg",0.037920979,0.07506816,-0.109209912,0.18505187,0.613451,"positive",TRUE,0.643627,0.796215,3550.37728,581,575,FALSE,TRUE

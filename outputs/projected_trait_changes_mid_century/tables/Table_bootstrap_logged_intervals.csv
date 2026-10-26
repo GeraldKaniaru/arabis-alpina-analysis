@@ -1,0 +1,17 @@
+"Trait","Scenario","Set","N","Low","High"
+"Flowering_onset","SSP2-4.5","All finite draws",1000,-0.448981296227189,0.626706554065986
+"Flowering_onset","SSP2-4.5","Diagnostic pass",999,-0.449024751711674,0.626715844245638
+"Flowering_onset","SSP5-8.5","All finite draws",1000,-0.534897448719136,0.963685232302003
+"Flowering_onset","SSP5-8.5","Diagnostic pass",999,-0.534928872694706,0.964029201639238
+"Flowering_duration","SSP2-4.5","All finite draws",1000,-1.26073601048311,0.095171067767829
+"Flowering_duration","SSP2-4.5","Diagnostic pass",998,-1.26085434427134,0.0954548082721581
+"Flowering_duration","SSP5-8.5","All finite draws",1000,-2.08414322208707,-0.112963942067525
+"Flowering_duration","SSP5-8.5","Diagnostic pass",998,-2.07781606181408,-0.112832495290237
+"MISM","SSP2-4.5","All finite draws",1000,-0.0186378992782286,0.0078018239840861
+"MISM","SSP2-4.5","Diagnostic pass",1000,-0.0186378992782286,0.0078018239840861
+"MISM","SSP5-8.5","All finite draws",1000,-0.0275572085234398,0.0119888325595567
+"MISM","SSP5-8.5","Diagnostic pass",1000,-0.0275572085234398,0.0119888325595567
+"Total_seed_number","SSP2-4.5","All finite draws",1000,-41.1759839993108,49.8047554264736
+"Total_seed_number","SSP2-4.5","Diagnostic pass",1000,-41.1759839993108,49.8047554264736
+"Total_seed_number","SSP5-8.5","All finite draws",1000,-67.6634576349714,73.0598105490103
+"Total_seed_number","SSP5-8.5","Diagnostic pass",1000,-67.6634576349714,73.0598105490103

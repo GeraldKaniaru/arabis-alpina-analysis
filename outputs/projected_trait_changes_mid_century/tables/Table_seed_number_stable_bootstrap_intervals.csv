@@ -1,0 +1,5 @@
+"Trait","Scenario","Set","N","Low","High"
+"Total_seed_number","SSP2-4.5","All finite draws",1000,-41.1759839993108,49.8047554264736
+"Total_seed_number","SSP2-4.5","Diagnostic pass",1000,-41.1759839993108,49.8047554264736
+"Total_seed_number","SSP5-8.5","All finite draws",1000,-67.6634576349714,73.0598105490103
+"Total_seed_number","SSP5-8.5","Diagnostic pass",1000,-67.6634576349714,73.0598105490103

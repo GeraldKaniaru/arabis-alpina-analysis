@@ -1,0 +1,5 @@
+"Trait","Converged","Positive_definite_Hessian","Finite_fixed_effect_SE","Singular","Convergence_messages"
+"Flowering_onset",TRUE,TRUE,TRUE,FALSE,""
+"Flowering_duration",TRUE,TRUE,TRUE,FALSE,""
+"MISM",TRUE,NA,TRUE,TRUE,"boundary (singular) fit: see help('isSingular')"
+"Total_seed_number",TRUE,TRUE,TRUE,FALSE,"relative convergence (4)"

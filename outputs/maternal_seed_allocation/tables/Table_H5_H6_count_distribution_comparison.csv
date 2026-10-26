@@ -1,0 +1,7 @@
+"Model","N","K","logLik","AIC","AICc","Converged","Positive_definite_Hessian","Singular","Delta_AICc","Akaike_weight","Finite_fixed_effect_SE","Hypothesis","Dispersion_statistic","Dispersion_P","Zero_inflation_P","Outlier_P"
+"nbinom2",581,5,-3395.921,6801.842,6801.947,TRUE,TRUE,NA,0,0.511,TRUE,"H5",0.979,0.78,1,0.3
+"nbinom1",581,5,-3395.966,6801.932,6802.036,TRUE,TRUE,NA,0.09,0.489,FALSE,"H5",0.979,0.78,1,0.26
+"Poisson",581,4,-9060.407,18128.813,18128.883,TRUE,TRUE,NA,11326.936,0,TRUE,"H5",12.605,0,1,0
+"nbinom1",581,5,-3396.464,6802.928,6803.032,TRUE,TRUE,NA,0,0.507,FALSE,"H6",0.979,0.778,1,0.34
+"nbinom2",581,5,-3396.491,6802.983,6803.087,TRUE,TRUE,NA,0.055,0.493,TRUE,"H6",0.979,0.778,1,0.2
+"Poisson",581,4,-9060.371,18128.741,18128.811,TRUE,TRUE,NA,11325.778,0,TRUE,"H6",12.303,0,1,0

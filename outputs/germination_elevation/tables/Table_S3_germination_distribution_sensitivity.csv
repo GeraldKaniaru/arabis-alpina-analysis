@@ -1,0 +1,8 @@
+"Model","Response","Package_function","Estimate_per_elevation_SD","SE","CI_low","CI_high","P_zero","N","Converged","Positive_definite_Hessian","Finite_fixed_effect_SE","Boundary","Maximum_absolute_gradient","DHARMa_uniformity_P","DHARMa_dispersion_P","DHARMa_outlier_P","Accepted_sensitivity_fit","Warnings"
+"GP_binomial","GP","glmmTMB::glmmTMB",-0.721653341924213,0.0723435854946007,-0.863444164006125,-0.579862519842302,1.95390690352618e-23,581,TRUE,TRUE,TRUE,FALSE,NA,0.836,0.682,0.112,TRUE,""
+"GP_beta_binomial","GP","glmmTMB::glmmTMB",-0.720949620071152,0.0717548046888035,-0.861586452978912,-0.580312787163391,9.43179032079701e-24,581,TRUE,TRUE,TRUE,FALSE,NA,0.832,0.832,0.323,TRUE,""
+"MGR_Gamma","MGR","glmmTMB::glmmTMB",-0.154691114552933,0.0167863675856472,-0.187591790452052,-0.121790438653814,3.10460554262165e-20,581,TRUE,TRUE,TRUE,TRUE,NA,0.844,0.816,0.323,TRUE,""
+"t0_ordinal","t0","ordinal::clmm",2.354434068761,0.59340972057612,NA,NA,NA,581,FALSE,TRUE,TRUE,TRUE,0.000132685045173275,NA,NA,NA,FALSE,""
+"Time_spread_ordinal","Time spread","ordinal::clmm",2.57926039508542,0.662075876376159,NA,NA,NA,581,FALSE,TRUE,TRUE,FALSE,0.000263678998635442,NA,NA,NA,FALSE,"step factor reduced below minimum when updating
+the random effects
+  at iteration 5470"

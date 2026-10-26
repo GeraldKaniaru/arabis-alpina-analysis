@@ -1,0 +1,5 @@
+"Hypothesis","Response","Model","Term","Elevation_SD_m","Estimate_per_m","Estimate_per_100_m","SE_per_m","CI_low_per_m","CI_high_per_m","CI_low_per_100_m","CI_high_per_100_m","P","Expected_dir_geection","Direction_consistent","Marginal_R2","Conditional_R2","AIC","N","Residual_df","Singular","Converged","SE_per_100_m"
+"H7a","t0","Elevation only","Elevation_z",232.312,0.004014,0.401366,0.000912,0.002226,0.005802,0.222559,0.580174,"< 0.001","positive",TRUE,0.167,0.587,1746.396,581,576,TRUE,TRUE,0.09123
+"H7b","Time_spread","Elevation only","Elevation_z",232.312,0.007158,0.715831,0.001786,0.003657,0.01066,0.365709,1.065953,"< 0.001","positive",TRUE,0.2,0.722,2098.887,581,576,FALSE,TRUE,0.178637
+"H7c","MGR","Elevation only","Elevation_z",232.312,-4.7e-05,-0.004715,5e-06,-5.6e-05,-3.8e-05,-0.005626,-0.003804,"< 0.001","negative",TRUE,0.632,0.967,-5598.059,581,576,TRUE,TRUE,0.000465
+"H7d","GP","Elevation only","Elevation_z",232.312,-0.053756,-5.375596,0.005121,-0.063792,-0.04372,-6.379209,-4.371983,"< 0.001","negative",TRUE,0.644,0.796,3548.632,581,576,FALSE,TRUE,0.512057

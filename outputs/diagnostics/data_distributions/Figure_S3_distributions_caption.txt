@@ -1,0 +1,1 @@
+Figure S3. Distributions of environmental variables and reproductive traits. Histograms show density and black curves show smoothed density estimates. Yellow bars show original scales and grey bars natural-log scales. MISM is mean individual seed mass in mg per seed.

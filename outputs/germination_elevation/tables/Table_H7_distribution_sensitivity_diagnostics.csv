@@ -1,0 +1,4 @@
+"Model","Uniformity_P","Dispersion_P","Outlier_P"
+"GP_binomial",0.836,0.682,0.112
+"GP_beta_binomial",0.832,0.832,0.323
+"MGR_Gamma",0.844,0.816,0.323

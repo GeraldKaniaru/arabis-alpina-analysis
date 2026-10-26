@@ -1,0 +1,13 @@
+"Table_section","Hypothesis","Response","Model","Term","N","Estimate","SE","CI_low","CI_high","P","Coefficient_unit","Marginal_R2","Conditional_R2","AIC","Residual_df","Singular","Converged","Expected_direction","Direction_consistent","N_plots","K","logLik","AICc","Delta_AICc","Akaike_weight","Supported","Rank"
+"H7: elevation model coefficients","H7a","t0","Elevation only","Elevation_z",581,"0.401","0.091","0.223","0.580","< 0.001","per 100-m elevation increase",0.167,0.587,"1746.4",576,TRUE,TRUE,"positive",TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+"H7: elevation model coefficients","H7b","Time_spread","Elevation only","Elevation_z",581,"0.716","0.179","0.366","1.066","< 0.001","per 100-m elevation increase",0.2,0.722,"2098.9",576,FALSE,TRUE,"positive",TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+"H7: elevation model coefficients","H7c","MGR","Elevation only","Elevation_z",581,"-0.005","4.650e-04","-0.006","-0.004","< 0.001","per 100-m elevation increase",0.632,0.967,"-5598.1",576,TRUE,TRUE,"negative",TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+"H7: elevation model coefficients","H7d","GP","Elevation only","Elevation_z",581,"-5.376","0.512","-6.379","-4.372","< 0.001","per 100-m elevation increase",0.644,0.796,"3548.6",576,FALSE,TRUE,"negative",TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+"H8: seed-mass candidate-model comparisons","H8a","t0","elevation_adjusted",NA,581,NA,NA,NA,NA,NA,NA,NA,NA,"1748.4",NA,TRUE,TRUE,NA,NA,27,6,"-868.2","1748.5","0.0","0.989",TRUE,1
+"H8: seed-mass candidate-model comparisons","H8a","t0","unadjusted",NA,581,NA,NA,NA,NA,NA,NA,NA,NA,"1757.3",NA,FALSE,TRUE,NA,NA,27,5,"-873.7","1757.4","8.9","0.011",FALSE,2
+"H8: seed-mass candidate-model comparisons","H8_spread","Time_spread","elevation_adjusted",NA,581,NA,NA,NA,NA,NA,NA,NA,NA,"2100.9",NA,FALSE,TRUE,NA,NA,27,6,"-1044.4","2101.0","0.0","0.985",TRUE,1
+"H8: seed-mass candidate-model comparisons","H8_spread","Time_spread","unadjusted",NA,581,NA,NA,NA,NA,NA,NA,NA,NA,"2109.2",NA,FALSE,TRUE,NA,NA,27,5,"-1049.6","2109.3","8.3","0.015",FALSE,2
+"H8: seed-mass candidate-model comparisons","H8b","MGR","elevation_adjusted",NA,581,NA,NA,NA,NA,NA,NA,NA,NA,"-5596.6",NA,TRUE,TRUE,NA,NA,27,6,"2804.3","-5596.4","0.0","1.000",TRUE,1
+"H8: seed-mass candidate-model comparisons","H8b","MGR","unadjusted",NA,581,NA,NA,NA,NA,NA,NA,NA,NA,"-5577.1",NA,FALSE,TRUE,NA,NA,27,5,"2793.5","-5577.0","19.4","0.000",FALSE,2
+"H8: seed-mass candidate-model comparisons","H8c","GP","elevation_adjusted",NA,581,NA,NA,NA,NA,NA,NA,NA,NA,"3550.4",NA,FALSE,TRUE,NA,NA,27,6,"-1769.2","3550.5","0.0","1.000",TRUE,1
+"H8: seed-mass candidate-model comparisons","H8c","GP","unadjusted",NA,581,NA,NA,NA,NA,NA,NA,NA,NA,"3578.8",NA,FALSE,TRUE,NA,NA,27,5,"-1784.4","3578.9","28.3","0.000",FALSE,2

@@ -1,0 +1,13 @@
+Response,Model/link,?,SE,CI-,CI+,P,Conv.,Positive-definite Hessian,Finite fixed-effect (SE),Boundary random-effect variance,DHARMa uniformity (P),DHARMa dispersion (P),DHARMa outlier (P),Accepted sensitivity fit
+GP,Binomial (logit),-0.311,0.031,-0.372,-0.25,<0.001,Yes,Yes,Yes,No,0.836,0.682,0.112,Yes
+GP,Beta-binomial (logit),-0.31,0.031,-0.371,-0.25,<0.001,Yes,Yes,Yes,No,0.832,0.832,0.323,Yes
+MGR,Gamma (log),-0.067,0.007,-0.081,-0.052,<0.001,Yes,Yes,Yes,Yes,0.844,0.816,0.323,Yes
+T0,Ordinal (logit),1.013,0.255,-,-,-,No,Yes,Yes,Yes,-,-,-,No
+Time spread,Ordinal (logit),1.11,0.285,-,-,-,No,Yes,Yes,No,-,-,-,No
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,

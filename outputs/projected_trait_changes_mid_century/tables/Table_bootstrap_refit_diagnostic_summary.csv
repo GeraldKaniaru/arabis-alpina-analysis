@@ -1,0 +1,5 @@
+"Trait","Attempted","Retained","Errors","Warning_replicates","Convergence_flags","Hessian_flags","Hessian_unavailable","Singular","Finite_SE_flags","Strict_diagnostic_pass"
+"Flowering_onset",1000,1000,0,1,1,0,0,579,0,999
+"Flowering_duration",1000,1000,0,2,2,0,0,365,0,998
+"MISM",1000,1000,0,0,0,0,0,975,0,1000
+"Total_seed_number",1000,1000,0,0,0,0,0,0,0,1000

@@ -1,0 +1,129 @@
+$Flowering_onset
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: Flowering_onset ~ Elevation_z + Soil_PC1_z + Temperature_z +  
+    Precipitation_z + (1 | Block/Plot_factor)
+   Data: onset_data
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1099.8    1134.8    -541.9    1083.8       573 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.4725 -0.3891  0.0039  0.5511  3.7619 
+
+Random effects:
+ Groups            Name        Variance Std.Dev.
+ Plot_factor:Block (Intercept) 0.08030  0.2834  
+ Block             (Intercept) 0.02304  0.1518  
+ Residual                      0.34750  0.5895  
+Number of obs: 581, groups:  Plot_factor:Block, 27; Block, 9
+
+Fixed effects:
+                Estimate Std. Error t value
+(Intercept)     15.05170    0.08693 173.143
+Elevation_z     -0.84097    0.30339  -2.772
+Soil_PC1_z       2.81137    0.23891  11.767
+Temperature_z    0.19122    0.30169   0.634
+Precipitation_z -0.20162    0.27048  -0.745
+
+Correlation of Fixed Effects:
+            (Intr) Elvtn_ S_PC1_ Tmprt_
+Elevation_z  0.063                     
+Soil_PC1_z   0.062  0.903              
+Temperatr_z  0.068  0.447  0.390       
+Precipttn_z -0.080 -0.150 -0.224 -0.881
+
+$Flowering_duration
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: Flowering_duration ~ Elevation_z + Soil_PC1_z + Temperature_z +  
+    Precipitation_z + (1 | Block/Plot_factor)
+   Data: duration_data
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+    666.1     701.0    -325.0     650.1       573 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.5335 -0.6377 -0.0267  0.5670  2.5766 
+
+Random effects:
+ Groups            Name        Variance Std.Dev.
+ Plot_factor:Block (Intercept) 0.1776   0.4214  
+ Block             (Intercept) 0.1091   0.3303  
+ Residual                      0.1532   0.3914  
+Number of obs: 581, groups:  Plot_factor:Block, 27; Block, 9
+
+Fixed effects:
+                Estimate Std. Error t value
+(Intercept)      17.8682     0.1530 116.769
+Elevation_z      -2.8697     0.4342  -6.609
+Soil_PC1_z       -8.7729     0.3698 -23.725
+Temperature_z    -0.9813     0.3960  -2.478
+Precipitation_z   0.8177     0.3728   2.194
+
+Correlation of Fixed Effects:
+            (Intr) Elvtn_ S_PC1_ Tmprt_
+Elevation_z  0.138                     
+Soil_PC1_z   0.079  0.901              
+Temperatr_z  0.089  0.401  0.357       
+Precipttn_z -0.103 -0.151 -0.221 -0.896
+
+$MISM
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: Log_MISM ~ Elevation_z + Soil_PC1_z + Temperature_z + Precipitation_z +  
+    (1 | Block/Plot_factor)
+   Data: mass_data
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   -606.8    -571.9     311.4    -622.8       573 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.01128 -0.85936  0.09189  0.85280  1.61482 
+
+Random effects:
+ Groups            Name        Variance  Std.Dev. 
+ Plot_factor:Block (Intercept) 8.355e-06 2.891e-03
+ Block             (Intercept) 4.478e-20 2.116e-10
+ Residual                      2.004e-02 1.415e-01
+Number of obs: 581, groups:  Plot_factor:Block, 27; Block, 9
+
+Fixed effects:
+                 Estimate Std. Error  t value
+(Intercept)     -1.645670   0.007322 -224.768
+Elevation_z     -0.079725   0.034652   -2.301
+Soil_PC1_z      -0.056071   0.022273   -2.517
+Temperature_z   -0.033543   0.042842   -0.783
+Precipitation_z  0.016334   0.034496    0.474
+
+Correlation of Fixed Effects:
+            (Intr) Elvtn_ S_PC1_ Tmprt_
+Elevation_z -0.204                     
+Soil_PC1_z  -0.087  0.935              
+Temperatr_z  0.045  0.470  0.409       
+Precipttn_z -0.045 -0.193 -0.207 -0.912
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+$Total_seed_number
+ Family: nbinom2  ( log )
+Formula:          Seed_number ~ Elevation_z + Soil_PC1_z + Temperature_z + Precipitation_z
+Data: number_data
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   6803.7    6829.8   -3395.8    6791.7       575 
+
+
+Dispersion parameter for nbinom2 family (): 12.4 
+
+Conditional model:
+                 Estimate Std. Error z value Pr(>|z|)    
+(Intercept)      5.680886   0.014982   379.2   <2e-16 ***
+Elevation_z     -0.001817   0.071030     0.0    0.980    
+Soil_PC1_z      -0.014736   0.045630    -0.3    0.747    
+Temperature_z   -0.031698   0.090734    -0.3    0.727    
+Precipitation_z  0.024605   0.072271     0.3    0.734    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

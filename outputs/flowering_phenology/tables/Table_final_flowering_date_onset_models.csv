@@ -1,0 +1,6 @@
+"Hypothesis","Model","Term","Coefficient_unit","Estimate","SE","CI_low","CI_high","z_approximation","P_value","Marginal_R2","Conditional_R2","N","Singular","P_slope_equals_1","Implied_duration_slope","Implied_duration_CI_low","Implied_duration_CI_high"
+"Completion timing","onset","Onset_centered","per one-day onset increase",0.947,0.028,0.892,1.002,33.712,0,0.182,0.997,581,FALSE,0.059,-0.053,-0.108,0.002
+"Completion timing","onset_elevation","Onset_centered","per one-day onset increase",0.95,0.028,0.895,1.005,33.776,0,0.211,0.99,581,FALSE,0.074,-0.05,-0.105,0.005
+"Completion timing","onset_elevation_climate","Onset_centered","per one-day onset increase",0.95,0.028,0.895,1.005,33.778,0,0.212,0.989,581,FALSE,0.075,-0.05,-0.105,0.005
+"Completion timing","onset_elevation_soil","Onset_centered","per one-day onset increase",0.952,0.028,0.897,1.007,33.956,0,0.946,0.984,581,FALSE,0.089,-0.048,-0.103,0.007
+"Completion timing","onset_elevation_climate_soil","Onset_centered","per one-day onset increase",0.952,0.028,0.897,1.007,33.98,0,0.955,0.984,581,FALSE,0.085,-0.048,-0.103,0.007
