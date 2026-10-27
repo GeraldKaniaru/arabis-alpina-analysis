@@ -1,0 +1,1 @@
+Figure S5. Spearman rank correlations among environmental variables and reproductive traits. Correlations involving 100-seed mass are restricted to the four germination components. Blank cells indicate untested pairs. Asterisks indicate Benjamini-Hochberg-adjusted P values: * <0.05, ** <0.01, *** <0.001.

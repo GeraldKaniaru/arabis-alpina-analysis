@@ -243,7 +243,7 @@ label_correlations <- function(x) {
 }
 p_correlations <- ggplot(correlation_results, aes(Column, Row, fill = Rho)) +
   geom_tile(colour = "grey40") +
-  geom_text(aes(label = Label), size = 3.5, color = "black") +
+  geom_text(aes(label = Label), size = 4, color = "black") +
   scale_fill_gradient2(low = "#79402E", mid = "white", high = "#235B38", limits = c(-1, 1)) +
   coord_equal() +
   labs(x = NULL, y = NULL, fill = "Spearman's Rho") +
