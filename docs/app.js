@@ -73,7 +73,16 @@ if (typeof document !== 'undefined') {
   files=catalog.files;$('file-count').textContent=files.length;
   const types=[...new Set(files.map(f=>f.extension).filter(Boolean))].sort();
   for(const type of types){const option=document.createElement('option');option.value=type;option.textContent=type.toUpperCase();$('type').append(option);}
-  for(const bundle of bundles){const group=files.filter(f=>f.category===bundle[0]);$(`${bundle[0]}-size`).textContent=`${group.length} files · ${formatSize(group.reduce((n,f)=>n+f.size,0))} uncompressed`;}
+  for(const [index,bundle] of bundles.entries()) {
+   const group=files.filter(f=>f.category===bundle[0]);
+   const current=catalog.bundles && catalog.bundles[bundle[0]];
+   if(current) {
+    document.querySelectorAll('#download-list > a')[index].href=current.url;
+    $(`${bundle[0]}-size`).textContent=`${group.length} files · ${formatSize(current.bytes)} ZIP · published ${current.snapshot}`;
+   } else $(`${bundle[0]}-size`).textContent=`${group.length} files · ${formatSize(group.reduce((n,f)=>n+f.size,0))} uncompressed`;
+  }
+  if(catalog.release)document.querySelector('#downloads .text-link').href=catalog.release;
+  if(catalog.lastPublishedAt)document.querySelector('.snapshot').textContent='LAST PUBLISHED · '+catalog.snapshot.toUpperCase();
   render();
   // The catalogue changes page height after load; honour section links afterwards.
   const section = document.getElementById(window.location.hash.slice(1));
