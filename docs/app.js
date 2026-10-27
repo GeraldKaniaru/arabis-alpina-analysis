@@ -82,7 +82,7 @@ if (typeof document !== 'undefined') {
    } else $(`${bundle[0]}-size`).textContent=`${group.length} files · ${formatSize(group.reduce((n,f)=>n+f.size,0))} uncompressed`;
   }
   if(catalog.release)document.querySelector('#downloads .text-link').href=catalog.release;
-  if(catalog.lastPublishedAt)document.querySelector('.snapshot').textContent='LAST PUBLISHED · '+catalog.snapshot.toUpperCase();
+  if(catalog.lastPublishedAt)document.querySelector('.snapshot').textContent='LAST PUBLISHED · '+(String(catalog.snapshot).match(/\b\d{4}\b/) || ['2026'])[0];
   render();
   // The catalogue changes page height after load; honour section links afterwards.
   const section = document.getElementById(window.location.hash.slice(1));
